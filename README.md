@@ -1,1 +1,2 @@
-# Corona-Realtime-Statistics-1
+# Corona-Realtime-Statistics
+Group 1
