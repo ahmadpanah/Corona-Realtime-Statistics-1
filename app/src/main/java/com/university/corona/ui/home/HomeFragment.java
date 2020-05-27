@@ -43,6 +43,7 @@ public class HomeFragment extends Fragment {
         tvTotalRecoverd = root.findViewById(R.id.tvTotalRecoverd);
         progressBar = root.findViewById(R.id.progress_circular_home);
 
+        //Call Volley
         getData();
 
         return root;
@@ -76,5 +77,7 @@ public class HomeFragment extends Fragment {
                 Log.d( "Error Response", error.toString());
             }
         });
+
+        queue.add(stringRequest);
     }
     }
